@@ -1,5 +1,7 @@
-function a() {
-    console.log('Hi DenoLand!');
-}
+const food = Deno.args[0]
 
-a()
+if (food === 'Love') {
+    console.log('🦖...Deno is alive!')
+} else {
+    console.log('🥚...Still baking, give it some love!')
+}
